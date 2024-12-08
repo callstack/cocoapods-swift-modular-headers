@@ -29,7 +29,7 @@ The plugin hooks into the pre-install phase of the pod install command. It analy
 Inside of your project's Gemfile add:
 
 ```ruby
-gem 'cocoapods-swift-modular-headers', :git => ':git => "git://github.com/okwasniewski/cocoapods-swift-modular-headers.git"'
+gem 'cocoapods-swift-modular-headers', :git => 'git@github.com:okwasniewski/cocoapods-swift-modular-headers.git', branch: 'main'
 ```
 
 Then run:
