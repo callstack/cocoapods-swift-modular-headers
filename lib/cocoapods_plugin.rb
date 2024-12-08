@@ -1,1 +1,1 @@
-require 'cocoapods-swift-modular-headers/command'
+require 'cocoapods-swift-modular-headers/plugin'

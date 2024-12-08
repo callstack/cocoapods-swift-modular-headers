@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsSwiftModularHeaders::VERSION
   spec.authors       = ['Oskar Kwaśniewski']
   spec.email         = ['oskarkwasniewski@icloud.com']
-  spec.description   = %q{A short description of cocoapods-swift-modular-headers.}
-  spec.summary       = %q{A longer description of cocoapods-swift-modular-headers.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-swift-modular-headers'
+  spec.description   = 'Automatically enables modular headers for dependencies of Swift pods. Useful for React Native projects.' 
+  spec.summary       = 'Automatically enables modular headers for dependencies of Swift pods.'
+  spec.homepage      = 'https://github.com/okwasniewski/cocoapods-swift-modular-headers'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
@@ -19,5 +19,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'rake'
 end
