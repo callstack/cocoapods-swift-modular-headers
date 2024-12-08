@@ -40,8 +40,22 @@ Inside of your Podfile add:
 
 ```ruby
 plugin 'cocoapods-swift-modular-headers'
+
+# Above target declarations
+apply_modular_headers_for_swift_dependencies()
 ```
 
 And re-run the pod install command. The plugin will automatically enable modular headers for all dependencies of Swift pods.
+
+If you already have some pre-install hooks, you can add the plugin to the existing hooks:
+
+```ruby
+plugin 'cocoapods-swift-modular-headers'
+
+# Above target declarations
+pre_install do |installer|
+  apply_modular_headers_for_swift_dependencies(installer)
+end
+```
 
 For Expo projects, this can be automated by using Expo Config Plugins. (TODO)
