@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/f2713109-bb6d-42e1-a18d-f8546ddbb8bd
 
 ## Motivation
 
-When using Swift pods, sometimes theird party dependencies are not built with modular headers enabled. This can cause issues when importing the module in Swift code. This plugin automatically enables modular headers for all dependencies of Swift pods.
+When using Swift pods, sometimes third party dependencies are not built with modular headers enabled. This can cause issues when importing the module in Swift code. This plugin automatically enables modular headers for all dependencies of Swift pods.
 
 It solves this issue: 
 
